@@ -30,7 +30,7 @@ header {
 }
 
 .logo img {
-  width: 12vw;
+  width: 10vw;
 }
 
 .navbar {
@@ -41,14 +41,14 @@ header {
 }
 
 .navbar ul {
-  padding: 20px;
+  padding: 1vw;
   margin: 0;
   list-style: none;
   display: inline-block;
 }
 
 .navbar .otherOption {
-  width: 30%;
+  width: 35%;
   text-align: right;
 }
 
@@ -71,7 +71,7 @@ header .navbar .menu li::after {
   position: absolute;
   left: 0;
   bottom: 0.2vw;
-  height: 0.5vw;
+  height: 0.3vw;
   width: 0%;
   background-color: #fe0000;
   transition: width 0.3s ease;
@@ -272,7 +272,6 @@ a {
 
 .circle {
   border: 3px solid #707070;
-  border-color: #fe0000 #fe0000 #707070 #707070;
   border-radius: 50%;
   box-shadow: 0 0 1.5vw white;
   pointer-events: none;
@@ -356,11 +355,10 @@ a {
   max-width: 80%;
   left: 50%;
   transform: translateX(-50%);
-  padding-right: 20%;
+  padding-right: 40%;
   box-sizing: border-box;
   color: white;
   text-shadow: 0 5px 10px #0004;
-  z-index: 200;
 }
 
 .carousel .list .item .content .author {
@@ -1817,7 +1815,7 @@ button#showmore:hover {
 }
 
 .option-item i:hover {
-  color: #171717;
+  color: #fe0000;
   transform: scale(1.5);
 }
 
@@ -1831,16 +1829,16 @@ button#showmore:hover {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
-  height: 1vw;
+  bottom: -0.5vw;
+  height: 0.5vw;
   width: 0%;
   background-color: #c42121;
-  transition: width 0.3s ease;
-  z-index: -1;
+  transition:0.3s;
 }
 
-.option-item h1:hover::after {
+.option-item h1:hover:after {
   width: 100%;
+
 }
 
 .option-item:not(:last-child) {
